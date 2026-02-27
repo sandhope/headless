@@ -14,7 +14,7 @@ COPY ./dist/server  .
 COPY html ./html
 COPY static ./static
 
-EXPOSE 80
+EXPOSE 80 443
 
 ENV PRODUCTION=true
 
